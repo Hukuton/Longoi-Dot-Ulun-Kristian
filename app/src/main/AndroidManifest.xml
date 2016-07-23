@@ -10,7 +10,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,13 +20,21 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainListActivity"></activity>
+        <activity
+            android:name=".MainListActivity"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".ViewStringActivity"></activity>
+        <activity
+            android:name=".ViewStringActivity"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".AboutActivity"></activity>
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".EditLyricActivity"></activity>
+        <activity
+            android:name=".EditLyricActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
