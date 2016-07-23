@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <com.hukuton.widget.TextViews
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="95"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp" />
+
+    <com.github.ivbaranov.mfb.MaterialFavoriteButton
+        android:id="@+id/favouriteImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:paddingRight="10dp"
+        android:clickable="true"
+        app:mfb_bounce_duration="700"
+        app:mfb_favorite_image="@drawable/ic_heart_full"
+        app:mfb_not_favorite_image="@drawable/ic_heart_hollow"
+        app:mfb_rotation_angle="0"
+        app:mfb_rotation_duration="0" />
+
+</LinearLayout>

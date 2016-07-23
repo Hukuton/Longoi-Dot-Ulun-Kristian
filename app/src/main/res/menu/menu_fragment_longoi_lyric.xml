@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_transpose"
+        android:title="@string/transpose"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_show_hide_chords"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_edit_lyric"
+        android:title="@string/edit_lyric"
+        app:showAsAction="never" />
+
+</menu>

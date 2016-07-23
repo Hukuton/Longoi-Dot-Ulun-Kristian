@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ovkn_kosipan_tajuk">I Kosipan Dot Ulun Kristian</string>
+    <string name="ovkn_kosipan">
+        <![CDATA[
+        <body>
+        <center>
+            <p>Kasip oku sid Kinoringan, it Ama, i monguasa di sokoviai, i minongurug dit avan om i tana.</p>
+            <p>Kasip oku sid Yesus Kristus, it Anak do Kinoringan dit iso-no i Tuhan tokou. It inontizan di Sundu dot Osusi om inusu di Mariam di sumuni-po iosido. I nopogos sampai nisangkap i hiza di kakal-po i Pontius Pilatus pomorinta, minatai-po, nilobong-no om minindahu-no sid pomogunan dot ulun minatai. Adau po di kotolu ginumulian-no iosido antad sid ulun minatai om mindokodo-no sid surga. Nokendakod po, mogomo-no iosido ponong sid vanan do Kinoringan, it Ama, i monguasa di sokoviai. Antad sori rumikot vagu iosido sitid pomogunan, tu mongohukum dit ongoulun di mizau om minatai.</p>
+            Kasip oku sid Sundu dot Osusi, iso-no i gorija dot ulun Kristian dit enizo om osusi-po. I piniizaan dot ulun dot osusi om i kadaan do sala om i kogulianan do guvas om i koposizan penlaid.
+        </center>
+        </body>
+        ]]>
+    </string>
+    <string name="ovkn_pdoa_tuhan_yesus">
+        <![CDATA[
+        <body>
+        <center>
+            Ot Ama dahai sid surga, posusio i ngaran-nu, porikoto i karajaan-nu, posunuo i kenginan-nu, iadko i sid surga, iadinoi iti sid pomogunan.  Tahakai okoi-no dit adau diti do kakanan do miuma om padao-no i kasalaan-za, iadko iokoi diti nakapangada-no di sala it ongoulun di kisala sid dahai. Om amu-ko mangagazad dahai sid pensubaan, inoinga polobuso okoi-no antad sid karaatan. Sabap ikau-no o sanganu di karajaan om i kokuasaan om i kohormatan sampai penlaid. Amin.
+        </center>
+        </body>
+        ]]>
+    </string>
+
+	<string name="ovkn_asamod">
+        <![CDATA[
+        <body>
+			<p>Iningo-no dikou, iso-no Tuhan, aso-no vokon o ino-no i Tuhan Kinoringan tokou.</p>
+			<p>Manjadi manamod-ko-no di Tuhan Kinoringan-nu dit iseso o ginavo-nu om iseso o pongitungan-nu om iseso o kakansangan-nu.</p>
+			<p>Om iri ogi pinonuhuan koduvo, manamod-ko-no dit ulun vokon iadko i kondiri-nu. Aso-no pinonuhuan vokon di katalib po dino pinonuhuan, ka di Tuhan Yesus.</p>
+        </body>
+        ]]>
+    </string>
+
+	<string name="ovkn_kosipan_10_pinonuhuan">
+        <![CDATA[
+        <body>
+			<p>
+			Boros do Kinoringan, ioku-no diti o Tuhan Kinoringan-nu:
+			    <ul>
+				    <li>Kadan kou-no sumamba do Tuhan do tanid-ko ioku.</li>
+				    <li>Kadan kou-no mangagama do gambar antawa barang i buatan iadko Kinoringan, sampai kadan kono sumamba do nunu nopo i barang do iadino.</li>
+				    <li>Kadan kono mangarait di ngaran di Tuhan Kinoringan-nu dit aso panangan.</li>
+				    <li>Hondomo-no dot osusi it adau do pongintaranan. Onom not adau gumama-ko om posurut di gamaon-nu. Topot it adau do koturu adau do pongintaranan, nakatanid bahagi di Tuhan Kinoringan.</li>
+				    <li>Pongohormat-no dit ama-nu om it idi-nu.</li>
+				    <li>Kadan kou-no mamatai dot ulun.</li>
+				    <li>Kadan kou-no kumiagai.</li>
+				    <li>Kadan kou-no manakau.</li>
+				    <li>Kadan kou-no monimbaal antawa sumasi dot araat.</li>
+				    <li>Kadan kou-no sumolon di valai dot ulun antawa i karabau dot ulun antawa nunu nopo i dang ulun, ka.</li>
+				<ul>
+			</p>
+        </body>
+        ]]>
+    </string>
+
+    <string name="ovkn_ayat_barkat">
+        <![CDATA[
+        <body>
+            <center>
+                <p>
+                    <font color="#4caf50">Zabur 32:1-2</font>
+					<br/>Boros di Zabur, osinang-no it ulun di niada do Kinoringan i sala dau, om i natakapan i karaatan dau. Osinang-no it ulun dit amu kiroon di Tuhan i kasalaan dau om it asot akal sid saralom di ginavo dau, ka di Zabur.
+                </p>
+                <p>
+                    <font color="#f44336">Matius 10:32</font>
+					<br/>"Boros di Yesus, isai nopo i sumasi dohon sid tinoguvangon dot ongoulun, ino-no ot isasi-ku sid tinoguvangon dit Ama-ku sid surga, ka di Yesus."
+                </p>
+                <p>
+                    <font color="#4caf50">Zabur 103: 13</font>
+					<br/>Boros di zabur, iadko i kolomio di ginavo dit ama sid anganak dau, iadno keno o kobinsianan di Kinoringan sid ongoulun di sumuhut dau ka di zabur.
+                </p>
+                <p>
+                    <font color="#f44336">Matius 5:9</font>
+					<br/>Boros di Yesus, Osinang-no it ongoulun di popiandus, sabap pungaranan ioti dot anganak do Kinoringan, ka di Yesus.
+                </p>
+                <p>
+                    <font color="#f44336">Matius 6:33</font>
+					<br/>Boros di Yesus, ihimo-no banal dikou i karajaan do Kinoringan om i kabanaran dau, tu ong iadino, itahak sid dikou it ongohal vokon, ka di Yesus.
+                </p>
+                <p>
+                    <font color="#f44336">Matius 5:7</font>
+					<br/>Boros di Yesus osinang-no it ongoulun dit obinsianan, sabap it ulun dino nga sianan i, ka.
+                </p>
+                <p>
+                    <font color="#f44336">Matius 5:3</font>
+					<br/>Boros di Yesus, osinang-no it ongoulun dit osibak i ginavo, sabap kasanganu ioti di karajaan do surga, ka di Yesus.
+                </p>
+                <p>
+                    <font color="#f44336">Matius 5:8</font>
+					<br/>Boros di Yesus, osinang-no it ongoulun dit otulid i ginavo, sabap it ulun dino kemot do Kinoringan, ka di Yesus.
+                </p>
+                <p>
+                    <font color="#4caf50">Zabur 100:5</font>
+					<br/>Boros di Zabur, avantang i Tuhan om i kovosihan dau nga amu engkod, om i koruhunan dau mintoron sid ongoulun gulu sampai tungkus-monungkus l ranzat ka di Zabur.
+                </p>
+                <p>
+                    <font color="#f44336">Markus 13:31</font>
+					<br/>Boros di Yesus, it avan om i pomogunan nga tumanus, topot i boros-ku amui tumanus, ka di Yesus.
+                </p>
+                <p>
+                    <font color="#f44336">Rum 6:22</font>
+					<br/>Boros di rasul, ong biano-no nakalabus kou-no antad sid kuasa do kasalaan om najadi kou-no dot uripon do Kinoringan, sampai i guna dikou pongimbulai di kosusian, om i kosungguvo dikou nga sid koposizan penlaid, ka di Paulus.
+                </p>
+                <p>
+                    <font color="#4caf50">Yesaya 9:1</font>
+					<br/>Boros di nabi, i bansa di pentoron sid otuvong mimot do banalko anavau, om i sokoviai it ulun di nodundungan do kapatazan nga nembulazan-no dot anavau, ka di nabi.
+                </p>
+                <p>
+                    <font color="#4caf50">Yesaya 43:11</font>
+					<br/>Boros do Kinoringan, kadan kono rumosi, sabap iokoi-no diti o minananggung dikau, ioku-no diti o minongodim dikau sid ngaran-nu, ikau-no dohon, ka di Kinoringan.
+                </p>
+                <p>
+                    <font color="#4caf50">Yesaya 44:22</font>
+					<br/>Boros do Kinoringan, tinanus-ku i karaatan-nu iadko kavut om i sokoviai i kasalaan-nu nga iadko songobu o kavut. Piguli-ko-no sid dohon, tu ioku-no o mananggung dikau, ka di Kinoringan.
+                </p>
+                <p>
+                    <font color="#4caf50">Yesaya 54:10</font>
+					<br/>Boros do Kinoringan, minsanko tumanus it ongoburul om it ongoompulongon nga ohuzas, kakali dot amu-ko otonusan di kovosihan-ku om i janji-ku di kopioondusan nga amui ohuzas, ka di Tuhan i minonian dikau.
+                </p>
+                <p>
+                    <font color="#4caf50">Zabur 103:11</font>
+					<br/>Boros di Zabur, iadko i kasavato dit avan om iti pomogunan o kogozoo di kovosihan do Kinoringan di panaud dit ongoulun di sumuhut.
+                </p>
+                <p>
+                    <font color="#4caf50">Zabur 121:7</font>
+					<br/>Boros di Zabur, i Tuhan o manaud dikau, supaya a-ko onong di nunu nopo i karaatan, ka di Zabur.
+                </p>
+                <p>
+                    <font color="#4caf50">Zabur 103:12</font>
+					<br/>Boros di Zabur, iadko i kosoduo di kosilahon om i kotonobon o gama do kinoringan pensodu di karaatan tokou, ka di Zabur.
+                </p>
+				<p>
+					<font color="#4caf50">Zabur 117:</font>
+					<br/>Boros di Zabur, Akansang i hoturan di kovosihan do Kinoringan sid di tokou, om i kabanaran di Tuhan mangahatul di tokou sampai penlaid, ka di Zabur.
+				</p>
+				<p>
+					<font color="#f44336">1 Yahya 4:10</font>
+					<br/>Boros di rasul, ino-no i samod, okonko i tokou o kapanamod laid di Kinoringan, ino inga i Kinoringan o nakapanamod  laid di tokou sampai sinuhu it Anak dau mangaganti di kasalaan tokou, ka.
+
+				</p>
+				<p>
+					<font color="#f44336">Yahya 3:16</font>
+					<br/>Boros di Yesus, i Kinoringan banal noko asamod do riniba, sampai nitahak it Anak dau dit iso-no, supaya ipat-ipat it ulun di mangasip sid Kinoringan amu atagak, inoinga kasanganu di koposizan penlaid, ka di Yesus.
+				</p>
+				<p>
+					<font color="#f44336">Yahya 14:6</font>
+					<br/>Boros di Yesus, ioku-no diti i ralan om i kabanaran om i koposizan. Isot ulun nga aso korikot sid Ama, ong okonko ioku o vazaan, ka di Yesus.
+				</p>
+				<p>
+					<font color="#f44336">Yahya 8:12</font>
+					<br/>Boros di Yesus, ioku-no diti o panganavau do pomogunan. Isai nopo i sumuhut dohon, amu-no mamanau iosido sid otuvong, inoinga kemot iosido di kanavau do kapasi, ka di Yesus.
+				</p>
+				<p>
+					<font color="#f44336">Yahya 11:25</font>
+					<br/>Boros di Yesus, ioku-no diti i kogulianan om i koposizan. Isai nopo mangasip sid dohon, minsanko minatai-no i guvas dau, kakali dot apasi penlaid, ka di Yesus.
+				</p>
+				<p>
+					<font color="#f44336">Matius 21:22</font>
+					<br/>Boros di Yesus Nunu nopo it indomoon dikou sid saralom di gama minta dua, ong sukul mangasip kou-no, tantu atahakan kou, ka di Yesus.
+				</p>
+            </center>
+        </body>
+        ]]>
+    </string>
+	<string name="ovkn_tudukan_kopomodsuan">
+        <![CDATA[
+        <body>
+        <center>
+			<p>Nokosurat-no sid Injil di <font color="#f44336">Markus 16:16</font> do pengkaa dino: Boros di Yesus, isai nopo i mangasip om opodsu, ino-no i kotindal, ka di Yesus. Ot ongobpinai, aso puun di kopomodsuan dino tanid mantad-ko ino boros om suhu di Tuhan Yesus. Sid saralom di kopomodsuan manahak i Kinoringan sid di tokou do kotindalan. Iosido i puun do koposizan, om iosido manansanganu di tokou sampai pakaanak di tokou, supaya i tokou nga apasii sid dau. Okonko i vaig dino o kapangagama do iadino, om okonko iokoi, it ulun di momodsu o kapangagama, inoinga baiko i kuasa om i kovosihan do Kinoringan o kadapat. Topot avantang dot okonko rontob i boros o nitahak sid di tokou, inoinga varo po nahatul di Tuhan Yesus i tanda dino, o ino-no i vaig. Tu i vaig dino monuduk di tokou do kuran di gama do Kinoringan sid di tokou sid saralom do kopomodsuan.</p>
+			<p><b>KESO:</b><br/>
+			Oruhai tokou humarati di gama mokipodsu. Ong alasu it adau om noumasan tokou, engin tokou modsu, tu mongidu dit asakau antad sid guvas tokou. Topot sid tinoguvangon do Kinoringan asakau tokou okonko rontob sid soribau inoinga ogumu o karaatan sid saralom di ginavo tokou dit amu edu ong baiko vaig, o inono i sokoviai i kinaranggalan tokou di pinonuhuan, i pongitungan tokou di sumana om sumolon, i gama tokou mokisasavat om mongusiba dot ulun vokon, i gama momudut om monipu do koruhang, it aso samod om aso kobinsianan tokou, - iti sokoviai diti iduon om padaon do Kinoringan sid saralom di kopomodsuan sino, iadko i vaig mongidu di dungit.</p>
+			<p><b>KODUVO:</b><br/>
+			I tanda dino na vaig, om elaan tokou dot amu tokou apasi, ong aso vaig. Ong alaid manangadau om masak-no kavi it ongobavang om talaga, mongoguna tokou-no banal do vaig. Na i riniba di nokedu sid Kinoringan koluu-no dit ulun di napalid sid belantara, sid pomogunan dot banalko aso vaig. Minsan-ko asavat o pangkat dau om it ongopakit dau nga noponu do ringgit, topot ong aso vaig, amu-no apasi iosido, mesti matai. I tokou nga iadinoi. I hal do pomogunan amu kapasi di tokou, rontob i Kinoringan o kapasi di tokou. Boros di Tuhan Yesus, ioku-no diti o vaig do kapasi, ka. Manjadi sid saralom do kopomodsuan dino manahak iosido di tokou do koposizan dit amu-no tumanus sampai penlaid.
+			</p>
+			<p><b>KOTOLU:</b><br/>
+			I vaig dino okonko rontob kapasi dot ulun, inoinga ong oholian ogumu nga kapatai. Ong sid tanga do rahat om ododos banal, rumosi tokou; antawa hiza do lizud dot agazo, rumosi tokou, tu kapatai i vaig. Manjadi varo harati di kopomodsuan do iadino.
+			Boros di rasul Paulus, A-ka elaan dikou dot i tokou sokoviai di nopodsu, tu mamung sid di Kristus, tantu sid kinapatazan dau o kinopodsuan om kinoomungan? Ka. It ulun di lumonod sid tanga do rahat, amu-no humarap sid kondiri dau-ko sid barang dau.<br/>
+			Baiko iso po o harapan dau, o inono dot varo manapul dau. Manjadi ong mokipodsu tokou, tumolikud tokou sid kenginan kondiri om sid nunu nopo i harapan sitid pomogunan, om iseso humarap sid di Yesus, i Minananggung di tokou.<br/>
+			Boros di Yesus, isai nopo i mangasip om opodsu, ino-no i kotindal, ka di Yesus.
+			</p>
+		</center>
+        </body>
+        ]]>
+    </string>
+
+
+
+</resources>

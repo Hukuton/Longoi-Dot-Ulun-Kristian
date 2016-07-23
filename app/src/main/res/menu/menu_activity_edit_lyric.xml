@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/save"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_detect_chords"
+        android:title="@string/detect_chords"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_default_lyric"
+        android:title="@string/default_lyric"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_back"
+        android:title="@string/back"
+        app:showAsAction="never" />
+
+</menu>

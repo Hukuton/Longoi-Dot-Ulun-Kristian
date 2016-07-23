@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ivbaranov.mfb.MaterialFavoriteButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/favoriteImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="5"
+    android:clickable="true"
+    android:paddingRight="10dp"
+    android:layout_alignParentRight="true"
+    app:mfb_bounce_duration="700"
+    app:mfb_favorite_image="@drawable/ic_heart_full_white"
+    app:mfb_not_favorite_image="@drawable/ic_heart_hollow_white"
+    app:mfb_rotation_angle="0"
+    app:mfb_rotation_duration="0">
+
+</com.github.ivbaranov.mfb.MaterialFavoriteButton>

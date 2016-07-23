@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:layout_marginBottom="10dp"
+        tools:listitem="@layout/chord_pager_item" />
+
+    <RelativeLayout
+        android:id="@+id/viewPagerIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/viewpagerindicator"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_gravity="bottom"
+            android:visibility="invisible"
+            app:centered="true"
+            app:radius="5dp"
+            app:fillColor="?attr/colorPrimary"
+            app:pageColor="@android:color/white"
+            app:snap="false"
+            app:strokeColor="?attr/colorPrimaryDark"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
