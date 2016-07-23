@@ -62,7 +62,8 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void openGithubInBrowser() {
-
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Hukuton/Longoi-Dot-Ulun-Kristian"));
+        startActivity(i);
     }
 
     @Override
