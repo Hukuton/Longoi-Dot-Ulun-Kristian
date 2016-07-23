@@ -1,4 +1,4 @@
-package com.hukuton.longoidotulunkristian.fragment.dialog;
+package com.hukuton.longoidotulunkristianpcs.fragment.dialog;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-import com.hukuton.longoidotulunkristian.R;
-import com.hukuton.longoidotulunkristian.database.BookDatabaseHelper;
-import com.hukuton.longoidotulunkristian.interfaces.OnTranspose;
+import com.hukuton.longoidotulunkristianpcs.R;
+import com.hukuton.longoidotulunkristianpcs.database.BookDatabaseHelper;
+import com.hukuton.longoidotulunkristianpcs.interfaces.OnTranspose;
 
 import java.util.ArrayList;
 import java.util.List;
