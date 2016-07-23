@@ -1,0 +1,1 @@
+include ':app', ':material favourite button', ':guitar library', ':sqlite asset helper'

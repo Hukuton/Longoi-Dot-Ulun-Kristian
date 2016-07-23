@@ -8,10 +8,10 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 import com.hukuton.guitarlibrary.helper.ChordHelper;
-import com.hukuton.longoidotulunkristian.gesture.ClickAbleSpan;
-import com.hukuton.longoidotulunkristian.interfaces.OnTranspose;
-import com.hukuton.longoidotulunkristian.listener.OnChordClickListener;
-import com.hukuton.longoidotulunkristian.model.SpanText;
+import com.hukuton.longoidotulunkristianpcs.gesture.ClickAbleSpan;
+import com.hukuton.longoidotulunkristianpcs.interfaces.OnTranspose;
+import com.hukuton.longoidotulunkristianpcs.listener.OnChordClickListener;
+import com.hukuton.longoidotulunkristianpcs.model.SpanText;
 
 import java.util.ArrayList;
 import java.util.List;

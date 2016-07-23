@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "com.hukuton.longoidotulunkristian"
+        applicationId "com.hukuton.longoidotulunkristianpcs"
         minSdkVersion 8
         targetSdkVersion 21
         versionCode 5
