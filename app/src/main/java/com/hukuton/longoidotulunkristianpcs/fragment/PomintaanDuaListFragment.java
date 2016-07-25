@@ -22,25 +22,27 @@ import java.util.List;
  */
 public class PomintaanDuaListFragment extends BaseListFragment {
 
-    private List<Item> pomintaadDuaList;
+    private List<Item> pomintaanDuaList;
+    private ItemAdapter adapter;
 
     @Override
     protected RecyclerView.Adapter setAdapter() {
-        return new ItemAdapter(getPomintaanDuaList(), this);
+        adapter = new ItemAdapter(getPomintaanDuaList(), this);
+        return adapter;
     }
 
     private List<Item> getPomintaanDuaList() {
-        pomintaadDuaList = new ArrayList<>();
+        pomintaanDuaList = new ArrayList<>();
 
-        if(pomintaadDuaList.size() > 0)
-            return pomintaadDuaList;
+        if(pomintaanDuaList.size() > 0)
+            return pomintaanDuaList;
 
         for(int i = 0; i < ListValues.POMINTAAN_DUA.length; i++) {
             boolean fav = mBookDbHelper.isFavorite(BookDatabaseHelper.TABLE_POMINTAAN_DOA, i+1);
             Item pomintaanDua = new Item(ListValues.POMINTAAN_DUA[i], fav);
-            pomintaadDuaList.add(pomintaanDua);
+            pomintaanDuaList.add(pomintaanDua);
         }
-        return pomintaadDuaList;
+        return pomintaanDuaList;
     }
 
     @Override
@@ -56,8 +58,23 @@ public class PomintaanDuaListFragment extends BaseListFragment {
     @Override
     public void onTextWrapperClick(View view, int position) {
         Intent i = new Intent(view.getContext(), ViewStringActivity.class);
-        String json = new Gson().toJson(new IntentData(Type.POMINTAAN_DUA, pomintaadDuaList.size(), position));
+        String json = new Gson().toJson(new IntentData(Type.POMINTAAN_DUA, pomintaanDuaList.size(), position));
         i.putExtra(ViewStringActivity.JUSTDOITALREADY, json);
         view.getContext().startActivity(i);
+    }
+
+    @Override
+    protected boolean setHasOptionMenu() {
+        return true;
+    }
+
+    @Override
+    protected void setFilter(List<Item> filteredModelList) {
+        adapter.setFilter(filteredModelList);
+    }
+
+    @Override
+    protected List<Item> filter(String newText) {
+        return adapter.filter(pomintaanDuaList, newText);
     }
 }

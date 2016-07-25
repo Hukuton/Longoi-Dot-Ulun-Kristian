@@ -22,10 +22,12 @@ import java.util.List;
 public class OngovokonListFragment extends BaseListFragment {
 
     private List<Item> ongovokonList;
+    private ItemAdapter adapter;
 
     @Override
     protected RecyclerView.Adapter setAdapter() {
-        return new ItemAdapter(getOngovokonList(), this);
+        adapter = new ItemAdapter(getOngovokonList(), this);
+        return adapter;
     }
 
     private List<Item> getOngovokonList() {
@@ -59,5 +61,20 @@ public class OngovokonListFragment extends BaseListFragment {
         String json = new Gson().toJson(new IntentData(Type.ONGOVOKON, ongovokonList.size(), position));
         i.putExtra(ViewStringActivity.JUSTDOITALREADY, json);
         view.getContext().startActivity(i);
+    }
+
+    @Override
+    protected boolean setHasOptionMenu() {
+        return true;
+    }
+
+    @Override
+    protected void setFilter(List<Item> filteredModelList) {
+        adapter.setFilter(filteredModelList);
+    }
+
+    @Override
+    protected List<Item> filter(String newText) {
+        return adapter.filter(ongovokonList, newText);
     }
 }

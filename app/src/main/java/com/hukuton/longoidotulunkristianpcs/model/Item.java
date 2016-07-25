@@ -6,6 +6,7 @@ package com.hukuton.longoidotulunkristianpcs.model;
 public class Item {
     private String title;
     private boolean favourite;
+    private int position;
 
     public Item(String title, boolean isFavourite){
         this.title = title;
@@ -26,5 +27,9 @@ public class Item {
 
     public void setFavourite(boolean favourite) {
         this.favourite = favourite;
+    }
+
+    public int getPosition() {
+        return position;
     }
 }

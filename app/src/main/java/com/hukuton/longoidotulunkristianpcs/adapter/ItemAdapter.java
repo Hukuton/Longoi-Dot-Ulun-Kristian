@@ -12,6 +12,7 @@ import com.hukuton.longoidotulunkristianpcs.R;
 import com.hukuton.longoidotulunkristianpcs.listener.OnItemAdapterClickListener;
 import com.hukuton.longoidotulunkristianpcs.model.Item;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -20,11 +21,13 @@ import java.util.List;
 public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.MyViewHolder> {
 
     private List<Item> itemList;
+    private List<Item> itemListUnchanged;
 
     private OnItemAdapterClickListener onItemAdapterClickListener;
 
     public ItemAdapter(List<Item> itemList, OnItemAdapterClickListener onItemAdapterClickListener) {
         this.itemList = itemList;
+        this.itemListUnchanged = itemList;
         this.onItemAdapterClickListener = onItemAdapterClickListener;
     }
 
@@ -39,6 +42,33 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.MyViewHolder> 
         final Item item = itemList.get(position);
         holder.title.setText(item.getTitle());
         holder.materialFavoriteButton.setFavorite(item.isFavourite(), false);
+    }
+
+    public void setFilter(List<Item> itemModels) {
+        itemList = new ArrayList<>();
+        itemList.addAll(itemModels);
+        notifyDataSetChanged();
+    }
+
+    private int getOriginalPosition(String title){
+        for(int i = 0; i < itemListUnchanged.size(); i++){
+            if(itemListUnchanged.get(i).getTitle().equals(title))
+                return i;
+        }
+        return 0;
+    }
+
+    public List<Item> filter(List<Item> models, String query) {
+        query = query.toLowerCase();
+
+        final List<Item> filteredModelList = new ArrayList<>();
+        for (Item model : models) {
+            final String text = model.getTitle().toLowerCase();
+            if (text.contains(query)) {
+                filteredModelList.add(model);
+            }
+        }
+        return filteredModelList;
     }
 
     @Override
@@ -61,16 +91,23 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.MyViewHolder> 
             linearLayout.setOnClickListener(this);
             materialFavoriteButton.setOnFavoriteChangeListener(this);
         }
-
+/*
         @Override
         public void onClick(View view) {
             onItemAdapterClickListener.onTextWrapperClick(view, getAdapterPosition());
         }
+*/
 
         @Override
         public void onFavoriteChanged(MaterialFavoriteButton buttonView, boolean favorite) {
             itemList.get(getAdapterPosition()).setFavourite(favorite);
             onItemAdapterClickListener.onImageViewClick(buttonView, getAdapterPosition(), favorite);
+        }
+
+        @Override
+        public void onClick(View view) {
+            int pos = getOriginalPosition(itemList.get(getAdapterPosition()).getTitle());
+            onItemAdapterClickListener.onTextWrapperClick(view, pos);
         }
     }
 }

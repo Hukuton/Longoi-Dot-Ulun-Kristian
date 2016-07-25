@@ -22,10 +22,12 @@ import java.util.List;
 public class ZaburListFragment extends BaseListFragment {
 
     private List<Item> zaburList;
+    private ItemAdapter adapter;
 
     @Override
     protected RecyclerView.Adapter setAdapter() {
-        return new ItemAdapter(getZaburList(), this);
+        adapter = new ItemAdapter(getZaburList(), this);
+        return adapter;
     }
 
     private List<Item> getZaburList() {
@@ -58,5 +60,20 @@ public class ZaburListFragment extends BaseListFragment {
     @Override
     public Type getType() {
         return Type.ZABUR;
+    }
+
+    @Override
+    protected boolean setHasOptionMenu() {
+        return true;
+    }
+
+    @Override
+    protected void setFilter(List<Item> filteredModelList) {
+        adapter.setFilter(filteredModelList);
+    }
+
+    @Override
+    protected List<Item> filter(String newText) {
+        return adapter.filter(zaburList, newText);
     }
 }

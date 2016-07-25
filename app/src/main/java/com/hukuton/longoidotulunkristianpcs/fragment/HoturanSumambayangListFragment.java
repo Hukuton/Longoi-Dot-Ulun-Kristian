@@ -22,10 +22,12 @@ import java.util.List;
 public class HoturanSumambayangListFragment extends BaseListFragment {
 
     private List<Item> hoturanList;
+    private ItemAdapter adapter;
 
     @Override
     protected RecyclerView.Adapter setAdapter() {
-        return new ItemAdapter(getHoturanSumambayangList(), this);
+        adapter = new ItemAdapter(getHoturanSumambayangList(), this);
+        return adapter;
     }
 
     private List<Item> getHoturanSumambayangList() {
@@ -58,5 +60,20 @@ public class HoturanSumambayangListFragment extends BaseListFragment {
         String json = new Gson().toJson(new IntentData(Type.HOTURAN_SUMAMBAYANG, hoturanList.size(), position));
         i.putExtra(ViewStringActivity.JUSTDOITALREADY, json);
         view.getContext().startActivity(i);
+    }
+
+    @Override
+    protected boolean setHasOptionMenu() {
+        return true;
+    }
+
+    @Override
+    protected void setFilter(List<Item> filteredModelList) {
+        adapter.setFilter(filteredModelList);
+    }
+
+    @Override
+    protected List<Item> filter(String newText) {
+        return adapter.filter(hoturanList, newText);
     }
 }

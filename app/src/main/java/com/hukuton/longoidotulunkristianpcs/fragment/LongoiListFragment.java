@@ -22,9 +22,12 @@ import java.util.List;
 public class LongoiListFragment extends BaseListFragment {
 
     private List<Item> longoiList;
+    private ItemAdapter adapter;
+
     @Override
     protected RecyclerView.Adapter setAdapter() {
-        return new ItemAdapter(getLongoiList(), this);
+        adapter = new ItemAdapter(getLongoiList(), this);
+        return adapter;
     }
 
     private List<Item> getLongoiList() {
@@ -57,5 +60,20 @@ public class LongoiListFragment extends BaseListFragment {
         String json = new Gson().toJson(new IntentData(Type.LONGOI, longoiList.size(), position));
         i.putExtra(ViewStringActivity.JUSTDOITALREADY, json);
         view.getContext().startActivity(i);
+    }
+
+    @Override
+    protected boolean setHasOptionMenu() {
+        return true;
+    }
+
+    @Override
+    protected void setFilter(List<Item> filteredModelList) {
+        adapter.setFilter(filteredModelList);
+    }
+
+    @Override
+    protected List<Item> filter(String newText) {
+        return adapter.filter(longoiList, newText);
     }
 }
