@@ -213,7 +213,11 @@ public class ListValues {
             "Hoturan Sumambayang Perasmian Do Gorija",
             "Hoturan Sumambayang Posuvang Sid Do Kristian",
             "Hoturan Sumambayang Sid Ongo Ongkob",
-            "Hoturan Sumambayang Pengucapan Syukur"
+            "Hoturan Sumambayang Pengucapan Syukur",
+            "Liturgi Kebaktian Hari Minggu",
+            "Liturgi Acara Perkahwinan Pada Hari Minggu",
+            "Liturgi Acara Perkahwinan Pada Hari Biasa",
+            "Tatacara Kebaktian Rumah Tangga"
     };
 
     public final static String[] ONGOVOKON = {
